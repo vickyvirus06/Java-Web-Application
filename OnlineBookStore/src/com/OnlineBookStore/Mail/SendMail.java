@@ -15,7 +15,7 @@ public class SendMail {
 	public static boolean sendMail(String toEmail,String amount,String user_message)
 	{
 		String username = "poojarivicky3@gmail.com";
-		String password = "virus1995";
+		String password = "";
 		Properties properties = new Properties();
 		properties.put("mail.smtp.auth", "true");
 		properties.put("mail.smtp.starttls.enable", "true");
